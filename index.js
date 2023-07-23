@@ -1,6 +1,6 @@
 let count = 0
 
-$("#decrease").click(function () { 
+$(".decrease").click(function () { 
     count--;
     $("h2").text(count)
     if(count < 0){
@@ -10,7 +10,7 @@ $("#decrease").click(function () {
     }
 });
 
-$("#increase").click(function () { 
+$(".increase").click(function () { 
     count++;
     $("h2").text(count)
     if(count > 0){
@@ -20,7 +20,8 @@ $("#increase").click(function () {
     }
 });
 
-$("#reset").click(function () { 
+
+$(".reset").click(function () { 
     count = 0;
     $("h2").text(count)
     if(count === 0){
