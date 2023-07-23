@@ -1,0 +1,33 @@
+body{
+    font-family: montserrat;
+    background-color:rgb(215, 206, 194);
+}
+
+
+
+.containerA{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.containerA h1{
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+}
+
+.containerA h2{
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    
+}
+
+.btn{
+    padding: 10px;
+    font-family: montserrat;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
